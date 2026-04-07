@@ -15,13 +15,13 @@ export default function Footer() {
       <div className="container-ultra relative z-10 flex flex-col items-center text-center">
         <FadeIn>
           <p className="font-sans text-off-white/50 text-3xl md:text-4xl lg:text-5xl leading-tight max-w-2xl mb-6 font-display font-extrabold">
-            Voce carregou o mundo por tempo demais.
+            Você carregou o mundo por tempo demais.
           </p>
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <p className="font-sub italic text-off-white/60 text-lg md:text-xl max-w-lg mb-12">
-            Talvez seja hora de alguem olhar para o que voce carrega por dentro.
+            Talvez seja hora de alguém olhar para o que você carrega por dentro.
           </p>
         </FadeIn>
 
@@ -43,7 +43,7 @@ export default function Footer() {
 
         <FadeIn delay={0.35} className="mt-4">
           <p className="text-off-white/20 text-xs">
-            Analista Corporal &middot; Consteladora Sistemica &middot; Iridologista
+            Analista Corporal &middot; Consteladora Sistêmica &middot; Iridologista &middot; Terapeuta Integrativa
           </p>
         </FadeIn>
       </div>

@@ -1,26 +1,28 @@
 import { motion } from 'motion/react'
 import FadeIn from './FadeIn'
 
+const WA_LINK = 'https://wa.me/5534999160714?text=Oi%20Milene%2C%20vim%20pelo%20site.%20Gostaria%20de%20agendar%20minha%20conversa%20inicial%20para%20entender%20se%20o%20acompanhamento%20integrativo%20faz%20sentido%20para%20mim.'
+
 const pilares = [
   {
     num: '01',
-    titulo: 'Analise Corporal',
+    titulo: 'Análise Corporal',
     texto:
-      'Seu corpo gravou tudo o que voce viveu. Cada tensao, cada trauma, cada adaptacao. Na Analise Corporal, leio esses registros para entender o que moldou seus recursos e seus limites hoje.',
+      'Seu corpo gravou tudo o que você viveu. Cada tensão, cada trauma, cada adaptação. Na Análise Corporal, leio, compreendo esses registros para entender o que moldou seus recursos e seus limites hoje.',
   },
   {
     num: '02',
-    titulo: 'Constelacao Sistemica',
+    titulo: 'Constelação Sistêmica',
     texto:
-      'Muitas vezes, o desequilibrio hormonal ou a infertilidade carregam padroes da sua familia que voce nem sabe que existem. Identifico ordens de ajuda, exclusoes e din\u00e2micas que estao travando seu ciclo.',
+      'Muitas vezes, o desequilíbrio hormonal ou a infertilidade carregam padrões da sua família que você nem sabe que existem. Identifico ordens de ajuda, exclusões e dinâmicas que estão travando seu ciclo.',
   },
   {
     num: '03',
-    titulo: 'Iridologia (Terreno Biologico)',
+    titulo: 'Iridologia',
     texto:
-      'Seu terreno biologico e o solo onde sua saude nasce ou morre. Pela leitura da iris, identifico inflamacoes, carencias nutricionais e desequilibrios antes que se tornem doenca. E aqui que entendo o que os exames laboratoriais nao mostram.',
+      'Seu terreno biológico é o solo onde sua saúde nasce ou morre. Pela leitura da íris, identifico a raiz dos desequilíbrios, carências nutricionais e repetições de sintomas. Antes mesmo que se tornem doenças. Possibilitando compreender o que os diagnósticos sem causa aparente e exames não mostram.',
     extra:
-      'Nao e adivinhacao. E leitura tecnica do terreno que sustenta (ou sabota) cada funcao do seu corpo. Quando o terreno esta inflamado, nenhum tratamento de superficie vai funcionar. Primeiro, preparamos o solo.',
+      'Não é adivinhação. É leitura técnica e científica do terreno que sustenta (ou sabota) cada função do seu corpo. Quando o terreno está inflamado, em desequilíbrio, nenhum tratamento de superfície vai funcionar. Primeiro, preparamos o solo.',
   },
 ]
 
@@ -47,13 +49,13 @@ export default function Method() {
       <div className="container-ultra relative z-10">
         <FadeIn>
           <h2 className="font-display font-extrabold text-off-white text-3xl md:text-4xl lg:text-5xl leading-tight mb-4">
-            Tripe Integrativo: Corpo, <span className="text-accent">Sistema</span> e Terreno
+            Método Triple Integrativo: Corpo, <span className="text-accent">Sistema</span> e Terreno
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <p className="font-sans text-off-white/75 text-base md:text-lg leading-relaxed max-w-2xl mb-16">
-            Eu nao trato sintomas isolados. Leio o que seu corpo, sua historia familiar e seu terreno biologico estao dizendo ao mesmo tempo. Porque a saude feminina so se regenera quando essas tres camadas se encontram.
+            Eu não trato sintomas isolados. Leio, compreendo e integro o que seu corpo, sua história familiar e seu terreno biológico estão dizendo ao mesmo tempo. Porque a saúde feminina só se regenera quando essas três camadas se encontram.
           </p>
         </FadeIn>
 
@@ -91,18 +93,21 @@ export default function Method() {
           ))}
         </motion.div>
 
-        {/* Nao prometo */}
+        {/* CTA — substituiu o "Não prometo" */}
         <FadeIn className="mt-16">
-          <div className="border-l-2 border-accent pl-6 max-w-2xl">
-            <p className="font-sans text-off-white/70 text-sm leading-relaxed italic">
-              Nao prometo milagres. Nao trabalho com corpos onde nao ha viabilidade biologica. Exijo comprometimento real com o processo, porque resultado de verdade nao vem sem isso.
-            </p>
-          </div>
+          <a
+            href={WA_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-shimmer bg-accent text-dark font-sans font-medium text-sm uppercase tracking-[0.12em] rounded-sm hover:brightness-110 transition-all inline-flex"
+          >
+            Quero minha conversa inicial
+          </a>
         </FadeIn>
 
         <FadeIn delay={0.1} className="mt-12">
           <p className="font-sub italic text-accent text-lg md:text-xl">
-            Esse metodo nasceu da minha propria travessia. Deixa eu te contar de onde vim.
+            Esse método nasceu da minha própria travessia. Deixa eu te contar de onde vim.
           </p>
         </FadeIn>
       </div>

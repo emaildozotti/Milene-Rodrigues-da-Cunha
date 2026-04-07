@@ -13,7 +13,7 @@ export default function About() {
       <div className="container-ultra relative z-10">
         <FadeIn>
           <h2 className="font-display font-extrabold text-heading text-3xl md:text-4xl lg:text-5xl leading-tight mb-14">
-            De 3% de chance a mae de <span className="text-accent">tres filhos</span>
+            De 3% de chance a mãe de <span className="text-accent">três filhos</span>
           </h2>
         </FadeIn>
 
@@ -52,33 +52,33 @@ export default function About() {
           <div className="order-1 md:order-2 w-full md:w-7/12">
             <FadeIn>
               <p className="font-sans text-text-main/85 text-base leading-relaxed mb-5">
-                Aos 19 anos, recebi um diagnostico de falencia ovariana. Tres por cento de chance de engravidar. Passei anos vivendo no modo guerreira: divorcio, sobrecarga financeira, sustentando tudo sozinha. Ate que meu corpo decidiu me parar.
+                Aos 19 anos, recebi um diagnóstico de falência ovariana. Três por cento de chance de engravidar. E ainda assim passei anos vivendo no modo guerreira: divórcio, sobrecarga financeira, sustentando tudo sozinha. Até que meu corpo decidiu me parar.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.1}>
               <p className="font-sans text-text-main/85 text-base leading-relaxed mb-5">
-                O tromboembolismo foi o sinal mais violento de que eu estava me destruindo por dentro. Naquele momento, entendi que <span className="font-semibold text-text-main/90">meu corpo nao era meu inimigo</span>. Ele estava gritando o que eu me recusava a ouvir. Mudei minha postura interna, realinhei meu terreno. E me tornei mae de tres filhos naturalmente.
+                O tromboembolismo foi o sinal mais violento de que eu estava me destruindo por dentro. Naquele momento, entendi que <span className="font-semibold text-text-main/90">meu corpo não era meu inimigo</span>. Ele estava gritando o que eu me recusava a ouvir. Mudei minha postura interna, realinhei meu terreno. E me tornei mãe de três filhos naturalmente.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.2}>
               <p className="font-sans text-text-main/85 text-base leading-relaxed mb-8">
-                Hoje sou a mentora que eu mesma nao tive. Uso o tripe que construi a partir da minha propria dor: Analise Corporal, Constelacao Sistemica e Iridologia. Cada mulher que chega ate mim carrega uma historia que precisa ser <span className="text-primary">lida</span>, nao medicada.
+                Hoje sou a mentora que eu mesma não tive. Uso o Método Triple Integrativo que construí a partir da minha própria dor: Análise Corporal, Constelação Sistêmica e Iridologia. Cada mulher que chega até mim carrega uma história que precisa ser <span className="text-primary">lida, interpretada e compreendida</span>, não apenas medicada.
               </p>
             </FadeIn>
 
             <FadeIn delay={0.25}>
               <blockquote className="border-l-2 border-primary pl-5 mb-8">
                 <p className="font-sub italic text-text-main/70 text-lg leading-relaxed">
-                  Por isso estruturei um processo que olha para voce inteira, nao so para o sintoma.
+                  Por isso estruturei um processo que olha para você inteira, não só para o sintoma.
                 </p>
               </blockquote>
             </FadeIn>
 
             <FadeIn delay={0.3}>
               <div className="flex flex-wrap gap-3">
-                {['Analista Corporal', 'Consteladora Sistemica', 'Iridologista'].map((cred) => (
+                {['Analista Corporal', 'Consteladora Sistêmica', 'Iridologista', 'Terapeuta Integrativa'].map((cred) => (
                   <span
                     key={cred}
                     className="text-xs uppercase tracking-[0.12em] text-primary/70 border border-primary/20 rounded-sm px-3 py-1.5"

@@ -15,13 +15,13 @@ export default function VideoSection() {
         <FadeIn>
           <div className="max-w-xl text-center mb-12">
             <p className="font-sans text-text-main/80 text-base md:text-lg leading-relaxed">
-              Aos 19 anos, ouvi que tinha 3% de chance de ser mae.
+              Aos 19 anos, ouvi que tinha 3% de chance de ser mãe.
             </p>
             <p className="font-sans text-text-main/80 text-base md:text-lg leading-relaxed mt-2">
               Passei anos no modo guerreira, carregando tudo sozinha.
             </p>
             <p className="font-sans text-text-main/80 text-base md:text-lg leading-relaxed mt-2">
-              Ate meu corpo me parar com um tromboembolismo.
+              Até meu corpo me parar com um tromboembolismo.
             </p>
           </div>
         </FadeIn>
@@ -34,7 +34,7 @@ export default function VideoSection() {
           >
             <iframe
               src="https://www.youtube.com/embed/nAI0W__QEmw"
-              title="Video de Milene Rodrigues"
+              title="Vídeo de Milene Rodrigues"
               className="w-full h-full"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -45,7 +45,7 @@ export default function VideoSection() {
 
         <FadeIn delay={0.30} className="mt-10">
           <p className="font-sub italic text-text-main/70 text-lg md:text-xl text-center max-w-lg">
-            O que descobri nesse caminho e exatamente o que compartilho com voce agora.
+            O que descobri nesse caminho é exatamente o que compartilho com você agora.
           </p>
         </FadeIn>
       </div>

@@ -60,19 +60,19 @@ export default function Hero() {
             </span>
 
             <FadeIn delay={0}>
-              <p className="eyebrow-ultra text-accent mb-6">MODO SOBREVIVENCIA</p>
+              <p className="eyebrow-ultra text-accent mb-6">MODO SOBREVIVÊNCIA</p>
             </FadeIn>
 
             <FadeIn delay={0.15}>
               <h1 className="font-display font-extrabold text-off-white text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6">
-                Voce carrega o mundo.{' '}
+                Você carrega o mundo.{' '}
                 <span className="text-accent">Seu corpo cobra a conta.</span>
               </h1>
             </FadeIn>
 
             <FadeIn delay={0.30}>
               <p className="font-sub text-off-white/80 text-lg md:text-xl font-light leading-relaxed mb-10 max-w-md">
-                Existe um caminho para sair do esgotamento sem abrir mao de quem voce e.
+                Existe um caminho para sair do esgotamento sem abrir mão de quem você é.
               </p>
             </FadeIn>
 

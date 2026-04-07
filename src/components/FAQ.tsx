@@ -4,34 +4,49 @@ import FadeIn from './FadeIn'
 
 const faqs = [
   {
-    pergunta: 'Ja tentei terapia/tratamento antes e nada funcionou',
+    pergunta: 'Já tentei terapia/tratamento antes e nada funcionou',
     resposta:
-      'Sei que voce ja investiu tempo, dinheiro e esperanca em solucoes que nao chegaram na raiz. O que faco de diferente e simples: nao trato apenas o sintoma. Leio seu corpo, seu sistema familiar e seu terreno biologico ao mesmo tempo. Quando as tres camadas se encontram, o que estava escondido aparece.',
+      'Sei que você já investiu tempo, dinheiro e esperança em soluções que não chegaram na raiz. O que faço de diferente é simples: não trato apenas o sintoma. Compreendo e integro seu corpo, seu sistema familiar e seu terreno biológico ao mesmo tempo. Quando as três camadas se encontram, o que estava escondido aparece.',
   },
   {
     pergunta: 'Funciona online?',
     resposta:
-      'Sim, funciona. A Analise Corporal e a Constelacao Sistemica funcionam perfeitamente por video. A Iridologia requer uma foto de alta resolucao da sua iris, que voce envia antes da sessao. Atendo mulheres de todo o Brasil dessa forma, com a mesma profundidade do presencial.',
+      'Sim, funciona. Para cada etapa você será orientada em como será a reunião e cada etapa do processo. Atendo mulheres desde 2020, online, do Brasil e do mundo, com a mesma profundidade do presencial.',
   },
   {
-    pergunta: 'Qual e o investimento?',
+    pergunta: 'Qual é o investimento?',
     resposta:
-      'Sei que e uma decisao financeira real. Sei tambem que viver com dor cronica, exaustao e um corpo que nao responde tem um custo que voce ja esta pagando: no casamento, na energia, na vontade de viver. O valor do acompanhamento e definido na nossa conversa inicial, porque cada processo tem profundidade diferente. Nao trabalho com pacote padrao.',
+      'Sei que é uma decisão financeira real. Sei também que viver com dor crônica, exaustão e um corpo que não responde tem um custo que você já está pagando: no casamento, na energia, na vontade de viver. O valor do acompanhamento é definido na nossa conversa inicial, porque cada processo tem profundidade diferente. Não trabalho com pacote padrão.',
   },
   {
     pergunta: 'Quanto tempo leva?',
     resposta:
-      'O processo terapeutico costuma durar entre 3 e 6 meses, dependendo da complexidade do que encontramos na raiz. Algumas mulheres sentem mudancas significativas ja no primeiro mes. Mas resultado real, que se sustenta, pede tempo e comprometimento.',
+      'Cada acompanhamento tem as suas particularidades, mas no primeiro mês você já terá mudanças significativas. Entretanto, existem processos que demandam um pouco mais de tempo, pois o meu intuito é que seja resultado real e que se sustente a longo prazo.',
   },
   {
-    pergunta: 'Constelacao Sistemica e misticismo ou tem base tecnica?',
+    pergunta: 'Constelação Sistêmica é misticismo ou tem base técnica?',
     resposta:
-      'Nao e misticismo. Constelacao Sistemica trabalha com padroes observaveis de din\u00e2micas familiares. Nao peco que voce acredite em nada alem do que pode perceber. Nao ha transe, incorporacao ou ritual. E uma ferramenta de leitura de padroes que, quando integrada com a Analise Corporal e a Iridologia, revela o que esta travando seu sistema.',
+      'Não é misticismo. A Constelação Sistêmica é uma abordagem terapêutica desenvolvida por Bert Hellinger, baseada na observação de padrões familiares e comportamentais. Hoje, esses padrões também são estudados pela Epigenética, que mostra como experiências e emoções podem impactar gerações. Na prática, a Constelação ajuda a identificar e reorganizar esses padrões, trazendo clareza e possibilitando mudanças reais, sem nenhum viés ou vínculo religioso.',
   },
   {
-    pergunta: 'E se o problema for da outra pessoa (marido, mae, familia)?',
+    pergunta: 'E se o problema for da outra pessoa (marido, mãe, família)?',
     resposta:
-      'O trabalho comeca por voce. Nao porque a culpa e sua, mas porque voce e o ponto de entrada do sistema. Quando voce se reposiciona, o sistema ao redor responde. Nao precisa convencer ninguem. Precisa se mover primeiro.',
+      'O trabalho começa por você. Não porque a culpa é sua, mas porque você é o ponto de entrada do sistema. Quando você se reposiciona, as pessoas e o sistema ao redor respondem. Não precisa convencer ninguém. Precisa se mover primeiro. Entretanto, se o interesse for do cônjuge, é possível agendar atendimento para o casal. Principalmente nos casos de casais que estão em busca do positivo, ambos terem um terreno biológico restaurado e questões sistêmicas e emocionais resolvidas aumentará não só as chances de um positivo como também uma genética mais efetiva e nutrida para gerar um bebê.',
+  },
+  {
+    pergunta: 'Não posso tomar hormônios, tem alguma contraindicação no tratamento?',
+    resposta:
+      'Todo o método é realizado de forma natural e com infocêuticos que carregam em suas fórmulas oligoelementos que, além de naturais, cuidam direto das células para assim alcançar os tecidos e órgãos. Além de não ter nenhuma contraindicação e/ou efeitos colaterais.',
+  },
+  {
+    pergunta: 'Já fiz menopausa, o método é pra mim?',
+    resposta:
+      'Sim, principalmente após os 35 anos a mulher passa a ter queda da produção de hormônios, queda na absorção de vitaminas e minerais, o que leva a atenuar os sintomas da perimenopausa e menopausa. Então corrigir e complementar o que falta no seu terreno biológico e no seu corpo te proporcionarão um envelhecer com mais tranquilidade e leveza.',
+  },
+  {
+    pergunta: 'Não tenho útero ou já fiz laqueadura, com o método posso engravidar?',
+    resposta:
+      'O Método Triple Integrativo tem como objetivo avaliar a raiz de sintomas físicos e emocionais, possibilitando assim auxiliar, cuidar e tratar da queixa ao que se identifica. Mas quando já se realizou procedimentos cirúrgicos impeditivos e/ou contraceptivos, a possibilidade de engravidar deve ser verificada junto aos profissionais competentes da área da medicina tradicional.',
   },
 ]
 

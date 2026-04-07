@@ -1,0 +1,5 @@
+repo: emaildozotti/milene-rodrigues-da-cunha
+url: https://github.com/emaildozotti/milene-rodrigues-da-cunha
+vercel: https://milene-rodrigues.vercel.app
+git: .git neste diretorio
+push: git push origin main (direto daqui)

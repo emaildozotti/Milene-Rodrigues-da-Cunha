@@ -4,19 +4,24 @@ import FadeIn from './FadeIn'
 
 const depoimentos = [
   {
-    nome: 'Fernanda R., 34 anos, Uberlandia',
+    nome: 'Aline P. S., 35 anos, Portugal',
     texto:
-      'Passei quatro anos tentando engravidar. Fiz todos os exames possiveis e ninguem encontrava nada de errado. Com a Milene, em tres meses de trabalho no tripe, entendi que meu corpo estava travado por uma din\u00e2mica familiar que eu nem sabia que existia. Seis meses depois, engravidei naturalmente. Minha filha e a prova de que existem coisas que exame nao mostra.',
+      'Após a mentoria, consegui me curar da endometriose que convivi durante anos, com dores, indisposições e processos que nenhum medicamento ou tratamento convencional resolveu. Após 3 meses de acompanhamento, estou livre da endometriose, sem dores, disposta e aberta a um novo relacionamento. Agora mais leve, saudável e do meu lugar.',
   },
   {
-    nome: 'Carla M., 38 anos, Sao Paulo',
+    nome: 'Fernanda R., 34 anos, Uberlândia',
     texto:
-      'Eu vivia no modo guerreira: trabalho, casa, filhos, tudo nas minhas costas. Achava que pedir ajuda era fraqueza. Com a Milene, entendi que esse padrao estava literalmente inflamando meu corpo. Minha endometriose melhorou, minha energia voltou, e pela primeira vez em anos, sinto que posso respirar sem culpa.',
+      'Passei quatro anos tentando engravidar. Fiz todos os exames possíveis e ninguém encontrava nada de errado. Com a Milene, foi identificado e tratado, entendi que meu corpo estava travado por uma dinâmica familiar que eu nem sabia que existia. Seis meses depois, engravidei naturalmente. Minha filha é a prova de que existem coisas que exames não mostram.',
+  },
+  {
+    nome: 'Carla M., 38 anos, São Paulo',
+    texto:
+      'Eu vivia no modo guerreira: trabalho, casa, filhos, tudo nas minhas costas. Achava que pedir ajuda era fraqueza. Com a Milene, entendi que esse padrão estava literalmente inflamando meu corpo. Minha endometriose melhorou, minha energia voltou, e pela primeira vez em anos, sinto que posso respirar sem culpa.',
   },
   {
     nome: 'Patricia S., 41 anos, Belo Horizonte',
     texto:
-      'Cheguei na Milene com perimenopausa aos 39 anos, insonia cronica e zero libido. Meu medico so queria me dar hormonio. Ela leu meu terreno biologico, identificou inflamacoes que ninguem tinha visto, e trabalhou comigo no nivel sistemico tambem. Hoje durmo, tenho energia, e meu casamento voltou a ter vida. Voltei a me reconhecer no espelho.',
+      'Cheguei na Milene com perimenopausa aos 39 anos, insônia crônica e zero libido. Meu médico só queria me dar hormônio. Ela cuidou do meu terreno biológico, fiz reposição de aminoácidos, minerais e vitaminas. Ela me ajudou a fazer ajustes no meu dia a dia e curas sistêmicas que levarei pra vida. Hoje durmo, tenho energia, e meu casamento voltou a ter vida. Voltei a me reconhecer no espelho.',
   },
 ]
 
@@ -48,7 +53,7 @@ export default function Testimonials() {
             </span>
 
             {/* Carousel */}
-            <div className="relative min-h-[280px] md:min-h-[220px] flex items-center justify-center">
+            <div className="relative min-h-[320px] md:min-h-[260px] flex items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={current}
@@ -97,7 +102,7 @@ export default function Testimonials() {
               <button
                 onClick={next}
                 className="w-10 h-10 rounded-full border border-off-white/20 flex items-center justify-center text-off-white/60 hover:border-accent hover:text-accent transition-colors cursor-pointer"
-                aria-label="Proximo depoimento"
+                aria-label="Próximo depoimento"
               >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                   <path d="M6 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

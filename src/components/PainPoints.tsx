@@ -4,19 +4,19 @@ import FadeIn from './FadeIn'
 const dores = [
   {
     num: '01',
-    texto: 'Voce acorda cansada, mesmo depois de dormir. Seu corpo nao recarrega mais.',
+    texto: 'Você acorda cansada, mesmo depois de dormir. Seu corpo não recarrega mais.',
   },
   {
     num: '02',
-    texto: 'Ja foi em cinco, dez medicos. Ninguem descobre o que voce tem de verdade.',
+    texto: 'Já foi em cinco, dez médicos. Ninguém descobre o que você tem de verdade.',
   },
   {
     num: '03',
-    texto: 'Cuida de todo mundo. No final do dia, nao sobra nada pra voce.',
+    texto: 'Cuida de todo mundo. No final do dia, não sobra nada pra você.',
   },
   {
     num: '04',
-    texto: 'Sabe que algo esta errado por dentro, mas tem medo de parar pra olhar.',
+    texto: 'Sabe que algo está errado por dentro, mas tem medo de parar pra olhar.',
   },
 ]
 
@@ -44,7 +44,7 @@ export default function PainPoints() {
       <div className="container-ultra relative z-10">
         <FadeIn>
           <p className="font-sub italic text-off-white/70 text-lg md:text-xl mb-12 max-w-2xl">
-            Conheco essas mulheres. Fui essa mulher durante anos.
+            Conheço essas mulheres. Fui essa mulher durante anos.
           </p>
         </FadeIn>
 
@@ -73,7 +73,7 @@ export default function PainPoints() {
 
         <FadeIn className="mt-14">
           <p className="font-sub text-accent text-xl md:text-2xl italic text-center max-w-xl mx-auto">
-            Essa exaustao tem <span className="font-semibold">raiz</span>. E ela nao esta onde voce procurou ate agora.
+            Essa exaustão tem <span className="font-semibold">raiz</span>. E ela não está onde você procurou até agora.
           </p>
         </FadeIn>
       </div>

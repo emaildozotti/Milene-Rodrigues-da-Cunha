@@ -6,28 +6,20 @@ const passos = [
     num: '1',
     titulo: 'Conversa inicial',
     texto:
-      'Na nossa primeira conversa, escuto sua historia sem pressa. Entendo o que voce ja tentou, o que funcionou, o que nao funcionou. E fazemos juntas uma primeira leitura do que pode estar na raiz. Sem compromisso, sem pressao.',
+      'Na nossa primeira conversa, escuto sua história sem pressa. Entendo o que você já tentou, o que funcionou, o que não funcionou. E fazemos juntas uma primeira leitura do que pode estar na raiz. Sem compromisso, sem pressão.',
   },
   {
     num: '2',
-    titulo: 'Leitura integrada',
+    titulo: 'Leitura Integrada',
     texto:
-      'Nas sessoes seguintes, aplico o tripe: leio seu corpo, investigo din\u00e2micas sistemicas e analiso seu terreno biologico pela Iridologia. Cada camada revela o que a outra nao mostra sozinha. Voce comeca a entender o que sempre esteve ali, mas ninguem tinha olhado.',
+      'Nas sessões seguintes, aplico a Triple: compreendo seu corpo, investigo dinâmicas sistêmicas e analiso seu terreno biológico pela Iridologia, adequando o protocolo à sua necessidade conforme as avaliações. Cada camada revela o que a outra não mostra sozinha. Você começa a entender o que sempre esteve ali, mas ninguém tinha olhado.',
   },
   {
     num: '3',
-    titulo: 'Realinhamento e regeneracao',
+    titulo: 'Realinhamento e regeneração',
     texto:
-      'Com a raiz identificada, trabalhamos o realinhamento. Isso significa mudancas concretas na forma como voce se relaciona com seu corpo, sua historia familiar e sua biologia. O resultado nao e magico: e o terreno se regenerando porque finalmente paramos de tratar so a superficie.',
+      'Com a raiz identificada, trabalhamos o realinhamento. Isso significa mudanças concretas na forma como você se relaciona com seu corpo, sua história familiar e sua biologia. O resultado não é mágico: é o terreno se regenerando porque finalmente paramos de tratar só a superfície.',
   },
-]
-
-const desmistificacao = [
-  'Nao e ritual espiritual. Nao exige que voce acredite em nada que nao seja observavel.',
-  'Voce nao precisa perdoar ninguem. Aceitacao e diferente de perdao.',
-  'A sessao nao exige que voce exponha traumas. O trabalho respeita o que voce esta pronta para olhar.',
-  'Nao ha transe, incorporacao ou qualquer pratica esoterica. E leitura de padroes familiares com base tecnica.',
-  'Voce sai entendendo o que aconteceu. Sem "revelacoes" misteriosas.',
 ]
 
 const container = {
@@ -53,7 +45,7 @@ export default function HowItWorks() {
       <div className="container-ultra relative z-10">
         <FadeIn>
           <h2 className="font-display font-extrabold text-heading text-3xl md:text-4xl lg:text-5xl leading-tight mb-16">
-            Seu processo comeca <span className="text-primary">aqui</span>
+            Seu processo começa <span className="text-primary">aqui</span>
           </h2>
         </FadeIn>
 
@@ -89,26 +81,11 @@ export default function HowItWorks() {
           </div>
         </motion.div>
 
-        {/* Desmistificacao */}
-        <FadeIn className="mt-20">
-          <div className="max-w-2xl ml-0 md:ml-[6.5rem]">
-            <p className="eyebrow-ultra text-primary/60 mb-6">O que acontece na sessao de Constelacao</p>
-            <ul className="space-y-4">
-              {desmistificacao.map((d, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full bg-accent" aria-hidden="true" />
-                  <p className="font-sans text-text-main/75 text-sm leading-relaxed">{d}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </FadeIn>
-
         {/* Remove ansiedade */}
         <FadeIn className="mt-14">
           <div className="max-w-2xl ml-0 md:ml-[6.5rem]">
             <p className="font-sans text-text-main/65 text-sm leading-relaxed italic">
-              Se voce esta insegura sobre dar esse passo, saiba que na conversa inicial nao existe compromisso. E uma escuta. Voce decide depois se quer continuar.
+              Se você está insegura sobre dar esse passo, saiba que na conversa inicial não existe compromisso. É uma escuta. Você decide depois se quer continuar.
             </p>
           </div>
         </FadeIn>
