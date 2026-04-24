@@ -64,7 +64,7 @@ export default function About() {
 
             <FadeIn delay={0.2}>
               <p className="font-sans text-text-main/85 text-base leading-relaxed mb-8">
-                Hoje sou a mentora que eu mesma não tive. Uso o Método Triple Integrativo que construí a partir da minha própria dor: Análise Corporal, Constelação Sistêmica e Iridologia. Cada mulher que chega até mim carrega uma história que precisa ser <span className="text-primary">lida, interpretada e compreendida</span>, não apenas medicada.
+                Hoje sou a mentora que eu mesma não tive. Uso o Método Triple Integrativo que construí a partir da minha própria dor: Análise Corporal, Constelação Sistêmica e Iridologia. Cada mulher que chega até mim carrega uma história que precisa ser <span className="text-primary">interpretada e compreendida</span>, não apenas medicada.
               </p>
             </FadeIn>
 
